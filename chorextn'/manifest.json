@@ -1,0 +1,30 @@
+{
+    "name": "Anchor",
+    "version": "0.02",
+    "description": "Whatsapp automation",
+    "manifest_version": 2,
+    "browser_action":{"default_popup":"home.html"},
+    "content_scripts": [
+    {
+      "matches":["https://api.whatsapp.com/*"],
+      "js": ["Myscript.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["jav.js"]
+    }
+
+
+  ],
+"background":{"scripts": ["bkgrnd.js"],"persistence":true},
+
+"permissions": [
+"tabs",
+"activeTab",
+"storage",
+"http://*/*",
+"background"
+        ]
+
+    }
