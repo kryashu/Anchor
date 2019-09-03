@@ -4,11 +4,11 @@ This project aims to simplify human effort of sending any perticular messages th
 
 
 # Installation:-
-  Install chrome extention in folder myfce.
+  Install chrome extention in folder chromeextn.
   Run sa.py and whatsapp.py for their respective use.
   
 # Programming Module:-
-"choreextn'" folder contains manifest.json for the chrome extention.
+"chormeextn'" folder contains manifest.json for the chrome extention.
 "entry.py" module is used for inserting number categorically in database.
 "whatsapp.py" module is used for scheduling messages to different categories in our database. 
 
